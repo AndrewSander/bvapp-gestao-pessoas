@@ -31,11 +31,6 @@ DADOS DE TESTE
 - Esperado: não se pode concluir atualização que deixe obrigatório vazio
   (CA02); apresentação de erro/mensagem ainda não detalhada nesta RF.
 
-[FA2] EDIÇÃO DE CAMPO NÃO CONFIRMADO (alternativo ao passo 2)
-- Caso o campo escolhido não conste da lista autorizada homologada,
-  não afirmar que a operação deve ser aceita; suspender esse passo até
-  definição dos campos editáveis.
-
 [RN] REGRAS DE NEGÓCIO
 RN1. Atualizar dados de usina é permitido (CA01), respeitando campos editáveis.
 RN2. Os quatro campos obrigatórios permanecem preenchidos (CA02/US #24293).
@@ -47,7 +42,6 @@ RESULTADOS ESPERADOS
   registro temporal da alteração.
 
 DÚVIDAS PARA STAKEHOLDERS
-- Quais campos podem mudar e quais perfis estão autorizados?
 - Onde comprovar a data da última atualização? Como tratar usina inexistente?
 Estado: PARCIALMENTE ESPECIFICADO (campos editáveis e exceções).
 """
