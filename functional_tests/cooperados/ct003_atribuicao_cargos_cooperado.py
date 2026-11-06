@@ -46,5 +46,22 @@ RESULTADOS ESPERADOS
 DÚVIDAS PARA STAKEHOLDERS
 - Quem pode atribuir? Quantos cargos por cooperado? Quais estados e vigência?
 - Como tratar cargo repetido, inativo e cargo anterior? Quais dados aparecem?
+
+[SUGESTÃO DE FLUXO E CRITÉRIOS DE ACEITAÇÃO — PENDENTE DE VALIDAÇÃO]
+
+Fluxo sugerido:
+- Selecionar um cooperado e um cargo disponível, realizar a atribuição e
+  conferir o vínculo na consulta. Na alteração, selecionar outro cargo e
+  verificar o vínculo atualizado.
+
+Critérios sugeridos:
+- CA-S1: Impedir novas atribuições a cooperados ou cargos inativos.
+- CA-S2: Evitar atribuições duplicadas do mesmo cargo ao mesmo cooperado.
+- CA-S3: Definir a cardinalidade dos vínculos; como proposta inicial, avaliar
+  um cargo ativo por cooperado, com substituição explícita na alteração.
+
+Pendente: validar se múltiplos cargos simultâneos são permitidos e como os
+          vínculos anteriores devem ser tratados.
+
 Estado: PARCIALMENTE ESPECIFICADO (US apenas com títulos no PDF).
 """

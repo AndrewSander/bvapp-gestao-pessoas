@@ -37,5 +37,23 @@ RESULTADOS ESPERADOS
 DÚVIDAS PARA STAKEHOLDERS
 - Quais estados e transições são permitidos? Quem altera?
 - Cargos já atribuídos a cooperados são afetados? Como exibir êxito e erros?
+
+[SUGESTÃO DE FLUXO E CRITÉRIOS DE ACEITAÇÃO — PENDENTE DE VALIDAÇÃO]
+
+Fluxo sugerido:
+- Selecionar um cargo existente, alterar seu status, confirmar a operação e
+  consultar novamente o registro para verificar o novo estado.
+
+Critérios sugeridos:
+- CA-S1: Adotar os estados ativo e inativo, permitindo transições entre eles
+  mediante autorização.
+- CA-S2: Impedir novas atribuições de cargos inativos a cooperados, após
+  validação da regra.
+- CA-S3: Registrar data e usuário responsável pela alteração e apresentar
+  confirmação da operação.
+
+Pendente: validar os estados aceitos, os perfis autorizados e os efeitos da
+          inativação sobre vínculos já existentes.
+
 Estado: PARCIALMENTE ESPECIFICADO (falta detalhamento de CA e US).
 """

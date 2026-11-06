@@ -48,5 +48,23 @@ RESULTADOS ESPERADOS
 DÚVIDAS PARA STAKEHOLDERS
 - Campos, filtros, visualizações, definição de histórico, dados editáveis,
   validações, permissões e resultados de sucesso/erro.
+
+[SUGESTÃO DE FLUXO E CRITÉRIOS DE ACEITAÇÃO — PENDENTE DE VALIDAÇÃO]
+
+Fluxo sugerido:
+- Consultar a listagem de cargos, pesquisar por nome, abrir os detalhes,
+  alterar um dado permitido e consultar novamente o registro.
+
+Critérios sugeridos:
+- CA-S1: Apresentar nome, descrição e status na consulta, com pesquisa por
+  nome e filtro por status.
+- CA-S2: Permitir edição por usuários autorizados, preservando os campos
+  obrigatórios e refletindo os novos valores na consulta.
+- CA-S3: Disponibilizar histórico com data, responsável e alterações
+  realizadas, após definição do conteúdo que deve ser auditado.
+
+Pendente: validar campos exibidos, filtros, campos editáveis e abrangência
+          do histórico.
+
 Estado: PARCIALMENTE ESPECIFICADO (US somente títulos no PDF).
 """

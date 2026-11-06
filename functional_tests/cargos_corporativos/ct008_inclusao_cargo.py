@@ -37,5 +37,21 @@ RESULTADOS ESPERADOS
 DÚVIDAS PARA STAKEHOLDERS
 - Quais campos, obrigatoriedade, unicidade e formato? Qual perfil cadastra?
 - O que representa sucesso, falha e persistência do cargo no sistema?
+
+[SUGESTÃO DE FLUXO E CRITÉRIOS DE ACEITAÇÃO — PENDENTE DE VALIDAÇÃO]
+
+Fluxo sugerido:
+- Usuário autorizado informa os dados do cargo, confirma o cadastro e
+  verifica sua presença na listagem.
+
+Critérios sugeridos:
+- CA-S1: Exigir nome e descrição, impedindo cadastro com campos obrigatórios
+  vazios.
+- CA-S2: Avaliar bloqueio de nomes duplicados dentro da mesma cooperativa.
+- CA-S3: Restringir o cadastro a usuários autorizados e apresentar
+  confirmação de sucesso ou indicação de erro.
+
+Pendente: validar os campos, a regra de unicidade e os perfis autorizados.
+
 Estado: PARCIALMENTE ESPECIFICADO (aguarda requisitos verificáveis).
 """
